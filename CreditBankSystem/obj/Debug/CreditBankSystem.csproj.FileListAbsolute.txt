@@ -1,0 +1,8 @@
+c:\users\орунбаевас\documents\visual studio 2017\Projects\CreditBankSystem\CreditBankSystem\obj\Debug\CreditBankSystem.csprojResolveAssemblyReference.cache
+c:\users\орунбаевас\documents\visual studio 2017\Projects\CreditBankSystem\CreditBankSystem\obj\Debug\AuthorizationPage.g.cs
+c:\users\орунбаевас\documents\visual studio 2017\Projects\CreditBankSystem\CreditBankSystem\obj\Debug\MainPage.g.cs
+c:\users\орунбаевас\documents\visual studio 2017\Projects\CreditBankSystem\CreditBankSystem\obj\Debug\MainWindow.g.cs
+c:\users\орунбаевас\documents\visual studio 2017\Projects\CreditBankSystem\CreditBankSystem\obj\Debug\RegistrationPage.g.cs
+c:\users\орунбаевас\documents\visual studio 2017\Projects\CreditBankSystem\CreditBankSystem\obj\Debug\App.g.cs
+c:\users\орунбаевас\documents\visual studio 2017\Projects\CreditBankSystem\CreditBankSystem\obj\Debug\CreditBankSystem_MarkupCompile.cache
+c:\users\орунбаевас\documents\visual studio 2017\Projects\CreditBankSystem\CreditBankSystem\obj\Debug\CreditBankSystem_MarkupCompile.lref
