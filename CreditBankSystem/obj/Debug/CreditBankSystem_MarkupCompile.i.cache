@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\users\орунбаевас\documents\visual studio 2017\Projects\CreditBankSystem\CreditBankSystem\obj\Debug\
+C:\Users\HP\Documents\GitHub\CreditBankSystem\CreditBankSystem\obj\Debug\
 CreditBankSystem
 none
 false
 DEBUG;TRACE
-c:\users\орунбаевас\documents\visual studio 2017\Projects\CreditBankSystem\CreditBankSystem\App.xaml
-4390778118
+C:\Users\HP\Documents\GitHub\CreditBankSystem\CreditBankSystem\App.xaml
+10-1939172858
 
-121571290761
-13738642453
-AuthorizationPage.xaml;MainPage.xaml;MainWindow.xaml;RegistrationPage.xaml;
+131138391748
+161714852381
+AuthorizationPage.xaml;CreditCalculator.xaml;MainPage.xaml;MainWindow.xaml;RegistrationPage.xaml;Themes\MetroDark\MetroDark.MSControls.Core.Implicit.xaml;Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.xaml;Themes\MetroDark\Styles.Shared.xaml;Themes\MetroDark\Styles.WPF.xaml;Themes\MetroDark\Theme.Colors.xaml;
 
-False
+True
 

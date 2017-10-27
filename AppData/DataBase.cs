@@ -3,18 +3,17 @@ using System.Text;
 using System.IO;
 using Newtonsoft.Json;
 using AppModels;
-using AppServices;
 
 namespace AppData
 {
-    public class Database
+    public class DataBase
     {
-        public long Id { get; set; }
         private List<Client> clients;
-        FirebaseService firebaseService;
-        public Database()
+        FireBaseService firebaseService;
+
+        public DataBase()
         {
-            firebaseService = new FirebaseService();
+            firebaseService = new FireBaseService();
             firebaseService.SunchronizeUsers();
             clients = firebaseService.GetClients();
         }

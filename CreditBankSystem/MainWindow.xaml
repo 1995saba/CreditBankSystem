@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:CreditBankSystem"
         mc:Ignorable="d"
         Title="MainWindow" Height="389.975" Width="571.193">
-   
-    <Frame Content="" HorizontalAlignment="Left" Height="359" VerticalAlignment="Top" Width="563"/>
-
+    
+        <Grid>
+        <Frame Content="" HorizontalAlignment="Left" Height="359" VerticalAlignment="Top" Width="563"/>
+    </Grid>
 </Window>

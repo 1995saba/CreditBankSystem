@@ -3,22 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AppModels;
 using AppData;
 
 namespace AppServices
 {
     public class Authorization
     {
-        public User currentUser = new User();
+        public Client currentClient = new Client();
         DataBase dataBase = new DataBase();
 
-        public User AuthorityVerify(string login, string password)
+        public Client AuthorityVerify(string pin, string password)
         {
-            foreach (var user in dataBase.GetUsers())
+            foreach (var client in dataBase.GetClients())
             {
-                if (user.Login == login && user.Password == password)
+                if (client.Pin.ToString() == pin && client.Password == password)
                 {
-                    return user;
+                    return client;
                 }
             }
             return null;

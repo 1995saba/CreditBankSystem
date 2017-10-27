@@ -14,27 +14,15 @@ namespace AppModels
 
         private double totalAmountToPay;
         private double monthAmountToPay;
-        private double remainder;
 
-        public double CalculateTotalAmountToPay(double amount, double interestRate)
+        public double CalculateTotalAmountToPay()
         {
-
-
-            return totalAmountToPay;
+            return totalAmountToPay=Amount*(1+InterestRate);
         }
 
-        public double CalculateMonthAmountToPay(double amount, double interestRate, int termInMonths)
+        public double CalculateMonthAmountToPay()
         {
-
-
-            return monthAmountToPay;
-        }
-
-        public double CalculateRemainder()
-        {
-
-
-            return remainder;
+            return monthAmountToPay=totalAmountToPay/TermInMonths;
         }
     }
 }

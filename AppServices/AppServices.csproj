@@ -71,7 +71,6 @@
   <ItemGroup>
     <Compile Include="Authorization.cs" />
     <Compile Include="EmailSender.cs" />
-    <Compile Include="FireBaseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +78,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AppData\AppData.csproj">
+      <Project>{789ef8d7-65ef-4064-baa0-34273dd0dcd7}</Project>
+      <Name>AppData</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AppModels\AppModels.csproj">
       <Project>{8531670a-78c5-4b73-bcb4-0bc7340ef60e}</Project>
       <Name>AppModels</Name>
